@@ -1,0 +1,40 @@
+body{
+    font-family:Arial, Helvetica, sans-serif; /*Define a família de fontes para o texto. */
+    background-color: mediumpurple; /*Define a família de fontes para o texto. */
+    text-align: center; /* Alinha o texto ao centro da página*/
+    color:aliceblue;  /*Define a cor do texto */
+}
+
+h1 {
+    color: #333; /* Define a cor do texto dentro da tag*/
+}
+
+input {
+    width: 200px; /*Define a largura dos campos de entrada*/
+    padding: 8px; /*Adiciona um preenchimento (espaço interno)*/
+    margin: 5px;  /*Adiciona uma margem de 5 pixels*/
+    border: 1px solid #ccc; /*Define a borda do campo de entrada*/
+    border-radius: 5px; /*diciona bordas arredondadas com raio de 5 pixels*/
+}
+
+button {
+    background-color: #77009b; /*Define a cor de fundo do botão como um roxo forte */
+    color: white; /*Define a cor do texto dentro do botão como branco.*/
+    padding: 10px 15px; /* Adiciona preenchimento interno */
+    border: none; /*Remove qualquer borda padrão do botão.*/
+    cursor: pointer; /* Altera o cursor para uma mãozinha */
+    border-radius: 5px; /*Adiciona bordas arredondadas ao botão*/
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+p {
+    font-size: 18px; /*Define o tamanho da fonte do texto dentro do parágrafo*/ 
+    font-weight: bold; /*Torna o texto dentro do parágrafo em negrito.*/
+    color: #333; /*Define a cor do texto como um tom de cinza escuro*/
+    margin-top: 15px; /*Adiciona uma margem de 15 pixels na parte superior do parágrafo*/
+}
+
+

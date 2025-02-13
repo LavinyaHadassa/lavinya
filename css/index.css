@@ -1,0 +1,41 @@
+body {
+    font-family:sans-serif;
+    background-color:rgb(199, 130, 231);
+    color: black;
+
+
+}
+    
+
+/* Estilos para a lista dentro de um elemento <nav> (barra de navegação) */
+nav ul {
+    list-style: none; /* Remove os marcadores (pontos) padrão das listas não ordenadas */
+    text-align: center; /* Alinha o conteúdo da lista ao centro (horizontalmente) */
+}
+
+/* Estilos para os itens de lista dentro da <nav> */
+nav ul li {
+    display: inline; /* Exibe os itens de lista em linha, ou seja, lado a lado */
+    margin: 15px; /* Adiciona uma margem de 15px ao redor de cada item de lista */
+}
+
+/* Estilos para os links dentro dos itens de lista da <nav> */
+nav ul li a {
+    color: black; /* Define a cor do texto dos links como preto */
+    background-color: darkorchid; /* Define a cor de fundo dos links como darkorchid (um tom de roxo escuro) */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-weight: bold; /* Deixa o texto dos links em negrito */
+}
+
+/* Estilos para a classe "logo" */
+.logo {
+    display: flex; /* Usa o modelo de layout flexbox para alinhar os itens dentro da logo */
+    align-items: center; /* Alinha os itens da logo verticalmente ao centro */
+    justify-content: center; /* Alinha os itens da logo horizontalmente ao centro */
+}
+
+/* Estilos para a seção da página */
+section {
+    padding: 40px; /* Adiciona 40px de preenchimento (espaço interno) em todos os lados da seção */
+    margin: 20px; /* Adiciona uma margem de 20px ao redor da seção */
+}

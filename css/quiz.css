@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(199, 130, 231); /*Define a cor de fundo da página*/
+    font-family: sans-serif; /*Define a família de fontes do texto */
+}
+
+ h1{
+
+text-align: center; /*Alinha o texto dentro da tag */
+font-size: 1.75rem; /*Define o tamanho da fonte do texto dentro da tag*/
+margin: 0.625rem; /* Adiciona uma margem ao redor do título de 0.625*/
+}
+    
+
+
+

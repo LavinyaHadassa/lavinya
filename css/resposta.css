@@ -1,0 +1,50 @@
+body {
+    display: flex; /* Define o layout como flexbox */
+    flex-direction: column; /* Orienta os itens em uma coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    height: 100vh; /* Altura da viewport */
+    background-color: rgb(170, 120, 204); /* Cor de fundo da página */
+    margin: 0; /* Remove margem padrão */
+    color: #000000; /* Cor do texto */
+    padding: 0; /* Remove padding padrão */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo do cabeçalho */
+header {
+    width: 100%; /* Largura total */
+    display: flex; /* Define o layout como flexbox */
+    flex-direction: column; /* Orienta os itens em uma coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    padding: 20px; /* Padding interno */
+    color: #000000; /* Cor roxa para o texto do cabeçalho */
+}
+
+/* Estilo do título do cabeçalho */
+header h1 {
+    margin: 0; /* Remove margem padrão */
+    margin-bottom: 10px; /* Espaço entre o título e os links de navegação */
+}
+
+
+/* Estilo do contêiner de resposta */
+.response-container {
+    display: flex; /*Define o layout como flexbox */
+    flex-direction: column; /* Orienta os instes em uma coluna */
+    align-items: center;  /* Centraliza horizontalmente */
+    border: 1px solid #ccc; /* Bordas em cinza */
+    border-radius: 10px;  /*bordas redondas*/
+    padding: 20px; /* Espaço interno */
+    background-color:#a560c0; /*Cor de fundo*/
+    box-shadow:#9c38bb; /*Sombra ao redor do quadrado (contêiner0 */
+    width: 300px; /* Largura fixa */
+    margin-top: 20px; /* Espaço superior */
+}
+    
+
+/* Estilo dos parágrafos dentro do contêiner de resposta */
+.response-container p {
+    margin: 10px 0; /* Margem vertical */
+}

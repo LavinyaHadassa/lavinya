@@ -1,0 +1,6 @@
+body{
+    color:rgb(0, 0, 0); /*Define a cor do texto dentro da tag*/
+    font-family:sans-serif; /* Define a fonte do texto como sans-serif*/
+    background-color:rgb(199, 130, 231) /*Define a cor de fundo da página usando valores RGB.*/
+}
+

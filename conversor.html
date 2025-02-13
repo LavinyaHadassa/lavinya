@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="css/conversor.css">
+    
+</head>
+<body>
+    <center>
+
+   
+    <div class="container">
+        <h1>Conversor de Moedas</h1>
+
+        <label for="valorEmReal">Digite o valor em R$:</label>
+        <input type="number" id="valorEmReal" placeholder="Digite o valor" step="0.01" min="0.01">
+
+        <div class="moeda-selecao">
+            <label for="moedaEstrangeira">Escolha a moeda:</label><br>
+            <input type="radio" id="dolar" name="moedaEstrangeira" value="Dólar">
+            <label for="dolar">Dólar</label>
+            <input type="radio" id="euro" name="moedaEstrangeira" value="Euro">
+            <label for="euro">Euro</label>
+            <input type="radio" id="libra" name="moedaEstrangeira" value="Libra">
+            <label for="libra">Libra</label>
+            <input type="radio" id="bitcoins" name="moedaEstrangeira" value="Bitcoins">
+            <label for="bitcoins">Bitcoins</label>
+        </div>
+
+        <button id="btnConverter" disabled>Converter</button>
+        <button id="btnLimpar">Limpar</button>
+
+        <p id="aviso">Digite o valor, escolha a moeda e clique em "Converter"</p>
+
+        <spam id="Resultado"></spam>
+    </div>
+</center>
+    
+</body>
+<script src="js/conversor.js"></script>
+
+</html>

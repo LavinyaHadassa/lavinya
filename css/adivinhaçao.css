@@ -1,0 +1,52 @@
+/* Definindo algumas cores personalizadas usando variáveis CSS */
+.root{
+    --color-whitwe: #b064c4; /* Cor roxa clara */
+    --color-blue: #c564eb;   /* Cor azul lilás */
+    --color-blue2: #9758af;  /* Um roxo mais escuro */
+    ---color: #af71d3;       /* Outro tom de roxo (mas tem um erro aqui, o nome da variável tem 3 hífens!) */
+}
+
+/* Resetando o estilo global, tirando margens e preenchimentos padrão */
+*{
+    margin: 0;  /* Zerando as margens */
+    padding: 0; /* Zerando o preenchimento */
+    box-sizing: border-box; /* Fazendo o cálculo de tamanho dos elementos mais previsível */
+}
+
+/* Estilo básico para o corpo da página */
+body{
+    all: unset; /* Tira todos os estilos padrão de uma vez (um pouco radical, mas funciona) */
+    font-family: Arial, Helvetica, sans-serif; /* Definindo a fonte */
+    display: flex; /* Usando Flexbox para organizar o layout */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100wh; /* Faz a altura mínima ser 100% da altura da janela */
+    background-color: #bc6cc7; /* Cor de fundo do corpo, um tom de roxo claro */
+    width: 100%; /* Largura total da página */
+    height: 100%; /* Altura total da página */
+}
+
+/* Estilos para o conteúdo principal da página */
+.content{
+    display: flex; /* Usando flexbox aqui também */
+    flex-direction: column; /* Organiza os itens na vertical */
+    align-items: center; /* Centraliza horizontalmente os itens dentro do .content */
+    justify-content: center; /* Centraliza verticalmente os itens */
+    gap: 1rem; /* Espaço entre os itens */
+    background: #ab52bd; /* Cor de fundo, outro tom de roxo */
+    border-radius: 1rem; /* Bordas arredondadas */
+    padding: 3rem 4rem; /* Espaçamento interno (padding) ao redor do conteúdo */
+    color: #bc6cc7; /* Cor do texto, que é um tom de roxo mais claro */
+}
+
+/* Estilo para os inputs dentro do .content */
+.content imput{
+    background-color: transparent; /* Fundo transparente */
+    border: none; /* Sem borda */
+    outline: none; /* Sem contorno quando estiver em foco */
+    color: var(--color--white); /* Tentando usar a variável de cor para o texto, mas está com um erro (o nome está com 2 hífens) */
+    font-size: 1rem; /* Tamanho da fonte */
+    padding: .4rem; /* Espaçamento interno nos inputs */
+    border-bottom: #fff; /* Borda inferior branca */
+    width: 50%; /* Largura do input (metade do espaço disponível) */
+} 
